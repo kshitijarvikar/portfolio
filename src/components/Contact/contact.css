@@ -1,0 +1,71 @@
+.contact {
+    height: 100vh;
+    position: relative;
+}
+.c-bg {
+    background-color: #59b256;
+    height: 100%;
+    width: 30px;
+    position: absolute;
+    z-index: -1;
+}
+.contact-wrapper {
+    display: flex;
+}
+.contact-left {
+    flex: 1;
+    margin: 50px;
+    padding: 40px 0px 0px 40px;
+    /* height: 50%; */
+}
+.contact-right {
+    flex: 1;
+    margin-top: 90px;
+}
+.title {
+    font-size: 60px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    width: 60%;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 90%;
+    margin: 10px 0;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #59b256;
+    color: white;
+    border: none;
+    width: auto;
+    cursor: pointer;
+    font-weight: 500;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Poppins&display=swap');
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0;
+    height: 30px;
+    margin: 10px 20px;
+}  
+.list {
+    display: flex;
+    padding: 0;
+    
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+} 
+li {
+    margin-left: 15px;
+    list-style: none;
+}
+li:hover {
+    cursor: pointer;
+}
+.resume {
+    background-color: aqua;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+} 
+
+.nav-left {
+    font-family:  cursive;
+    font-size: large;
+}
