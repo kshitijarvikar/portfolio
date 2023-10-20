@@ -18,6 +18,9 @@
     padding: 40px 0px 0px 40px;
     /* height: 50%; */
 }
+.desc {
+    margin-top: 30px;
+}
 .contact-right {
     flex: 1;
     margin-top: 90px;
@@ -38,7 +41,7 @@
 }
 
 form {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -61,11 +64,22 @@ textarea {
 }
 
 button {
-    padding: 10px 15px;
+    padding: 15px;
     background-color: #59b256;
     color: white;
     border: none;
-    width: auto;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 600;
+    width: 80px;
+    cursor: pointer;
+}
+
+.message {
+    width: 70%;
+}
+
+.c-icons {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
 }
