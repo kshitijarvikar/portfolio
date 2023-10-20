@@ -2,3 +2,19 @@
     margin: 0;
     padding: 0;
 }
+
+.load-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background: linear-gradient(to right, rgb(60, 60, 60), black);
+}
+
+.load-name {
+    font-style: italic;
+    color: white;
+    font-size: 40px;
+}
