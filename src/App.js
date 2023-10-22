@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Introduction from "./components/Introduction/Introduction";
 import Contact from "./components/Contact/Contact";
@@ -6,7 +6,9 @@ import Socials from "./components/Socials/Socials";
 import "./App.css"
 import Typewriter from "typewriter-effect";
 import { BarLoader } from "react-spinners"
-import { Fragment, useEffect, useState } from "react";
+
+import TechStack from "./components/TechStack/TechStack";
+import Alert from "./helper/Alert/Alert";
 
 
 function App() {
@@ -16,12 +18,12 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 2800);
   }, []);
 
   return (
     <Fragment>
-
+      
       {/* Loader */}
       { isLoading ? (
         <section className="load-container">
@@ -43,8 +45,10 @@ function App() {
         </section>
      ) : (
       <>
+        <Alert />
         <Navbar />
         <Introduction />
+        <TechStack />
         <Contact />
         <Socials />
       </>

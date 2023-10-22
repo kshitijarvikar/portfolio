@@ -1,0 +1,66 @@
+.main-contain {
+    margin: 100px 0;
+}
+
+.head-title {
+    position: relative;
+}
+
+.line-left {
+    position: absolute;
+    left: 0;
+    border: solid 1px black;
+    width: 37%;
+    top: 15px;
+}
+
+.line-right {
+    position: absolute;
+    right: 0;
+    border: solid 1px black;
+    width: 37%;   
+    top: 15px; 
+}
+
+.h-title {
+    text-align: center;
+    opacity: 0.8;
+    font-style: oblique;
+    font-size: 30px;
+}
+
+.stacks-container {
+    display: flex;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.stacks {
+    display: flex;
+    margin-right: 13px;
+    border: solid 2px black;
+    gap: 20px;
+    width: 15.5rem;
+    height: 4rem;
+    align-items: center;
+}
+
+img {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 8px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    margin: auto 0;
+}
+
+.info-name {
+    font-size: 23px;
+    opacity: 400;
+    text-transform: uppercase;
+}

@@ -63,7 +63,7 @@ textarea {
     padding-left: 10px;
 }
 
-button {
+.button {
     padding: 15px;
     background-color: #59b256;
     color: white;
@@ -83,3 +83,9 @@ button {
     height: 30px;
     margin-right: 20px;
 }
+
+a {
+    text-decoration: none;
+    
+}
+

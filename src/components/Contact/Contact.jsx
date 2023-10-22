@@ -1,20 +1,40 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import "./contact.css"
 import Phone from "../../images/phone.png"
 import Email from "../../images/email.png"
+import emailjs from "emailjs-com";
+import Aos from 'aos'
+import "aos/dist/aos.css"
 import Address from "../../images/address.png"
 
 
 
 const Contact = () => { 
-  const formRef = useRef()
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
+  useEffect(() => {
+    Aos.init({duration: 1000, once: true});
+  }, []);
+
+  const formRef = useRef()
+    const [done, setDone] = useState(false)
+    const handleSubmit = (e) => {
+      e.preventDefault()
+      emailjs.sendForm("service_fwpzw2x",
+        "template_x04a9tp", 
+        formRef.current, 
+        "TFAUeI3GWeMHyxQTo").then(
+          (result) => {
+            console.log(result.text);
+            setDone(true)
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
   }
 
   return (
-    <div className='contact'>
+    <div className='contact' data-aos="fade-up">
       {/* right green background */}
       <div className="c-bg"></div>
       <div className="contact-wrapper">
@@ -36,7 +56,7 @@ const Contact = () => {
                 alt='email'
                 className='c-icons'
               />
-              kshitijuarvikar849@gmail.com
+              <a href="mailto:kshitijuarvikar849@gmail.com">kshitijuarvikar849.com</a>
             </div>
             <div className="info-item">
               <img 
@@ -58,7 +78,8 @@ const Contact = () => {
             <input type="text" placeholder='Subject' name="user_subject"/>
             <input type="email" placeholder='Your Email' name="user_email"/>
             <textarea name="message" id="" rows="8" placeholder='Message' className="message"></textarea>
-            <button>Send</button>
+            <input type="submit" className='button' />
+            {done && "Thank you!! your message has been sent"}
           </form>
         </div>
       </div>      
