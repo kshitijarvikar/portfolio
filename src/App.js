@@ -7,7 +7,7 @@ import "./App.css"
 import Typewriter from "typewriter-effect";
 import { BarLoader } from "react-spinners"
 
-import TechStack from "./components/TechStack/TechStack";
+import Techstack from "./components/Techstack/Techstack";
 import Alert from "./helper/Alert/Alert";
 
 
@@ -48,7 +48,7 @@ function App() {
         <Alert />
         <Navbar />
         <Introduction />
-        <TechStack />
+        <Techstack />
         <Contact />
         <Socials />
       </>
