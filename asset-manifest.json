@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2fe7f50d.css",
+    "main.js": "/portfolio/static/js/main.10791a70.js",
+    "static/media/address.png": "/portfolio/static/media/address.a01cb8cc428702f30bec.png",
+    "static/media/email.png": "/portfolio/static/media/email.a49e015815e3ac6d2bd3.png",
+    "static/media/phone.png": "/portfolio/static/media/phone.d90a6d23cf5129d853bb.png",
+    "static/media/react.svg": "/portfolio/static/media/react.598d90dd4f36234e376cbc6ccd571550.svg",
+    "static/media/mysql.svg": "/portfolio/static/media/mysql.f6a4e0a91ffad968913f6d727e2b8780.svg",
+    "static/media/node.svg": "/portfolio/static/media/node.a7f2ccf30eed3e5878a2ba1e6be108a2.svg",
+    "static/media/java.svg": "/portfolio/static/media/java.e762a078e3d03dbc7253140068f33ec7.svg",
+    "static/media/css.svg": "/portfolio/static/media/css.a128b40380fc4a34074cd17523c268cb.svg",
+    "static/media/canva.svg": "/portfolio/static/media/canva.48fd6117058ad87a3dc11770abc6d30c.svg",
+    "static/media/c.svg": "/portfolio/static/media/c.813ccd234efbeb18aea14ff858f84a23.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.5531be85d7a8d6f333e5c7136944a022.svg",
+    "static/media/git.svg": "/portfolio/static/media/git.8ee81345da1c18b6cdb4bbe93b464810.svg",
+    "static/media/typescript.svg": "/portfolio/static/media/typescript.da47f77824fab48dafd99485194e6bae.svg",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.e7363ab96f901afdeb86963dd6a44ce2.svg",
+    "static/media/icons8-html.svg": "/portfolio/static/media/icons8-html.fc4241258dc59269ed22dbc52fa7ca25.svg",
+    "static/media/mongo.svg": "/portfolio/static/media/mongo.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/npm.svg": "/portfolio/static/media/npm.e95e6392f67f73c87a03d0eda8d384c7.svg",
+    "static/media/tailwind.svg": "/portfolio/static/media/tailwind.973c73e85d4daa24b257ba20298716c4.svg",
+    "static/media/framer-motion.svg": "/portfolio/static/media/framer-motion.cd0e8acf350dd639e9e8c999f8539a5e.svg",
+    "main.2fe7f50d.css.map": "/portfolio/static/css/main.2fe7f50d.css.map",
+    "main.10791a70.js.map": "/portfolio/static/js/main.10791a70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fe7f50d.css",
+    "static/js/main.10791a70.js"
+  ]
+}
